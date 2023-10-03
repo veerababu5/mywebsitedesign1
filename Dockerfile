@@ -8,4 +8,4 @@ ENV LANG te_IN.UTF-8
 COPY index.html /usr/local/apache2/htdocs/
 
 # Copy the local image file to the webserver directory
-COPY *.jpg /usr/local/apache2/htdocs/
+COPY images/*.jpg /usr/local/apache2/htdocs/
