@@ -9,3 +9,5 @@ COPY index.html /usr/local/apache2/htdocs/
 
 # Copy the local image file to the webserver directory
 COPY images/*.jpg /usr/local/apache2/htdocs/
+
+COPY images/*.png /usr/local/apache2/htdocs/
